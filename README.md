@@ -3,9 +3,21 @@
 The Expense Management Project revolves around leveraging Python's Object-Oriented Programming (OOP) paradigm to model and effectively manage financial expenses. This initiative centers on the implementation of two crucial classes: 'Expense' and 'ExpenseDatabase'
 
 # Project Components
+
 * expenses.py - Expense Model:
 The expenses.py module encapsulates the expense model. This class, Expense, serves as the blueprint for individual financial transactions. It captures essential attributes such as a unique identifier, title, amount, and timestamps for creation and updates.
+-----------------------------------
+In the Expense class, it would:
+* Expense representation
+* Updating the Expenses
 
+In the ExpenseDatabase class, it would:
+* Instantiate the expenses database
+* Add expenses: `add_expenses`
+* Remove Expenses: `remove_expense`
+* Get functionalities:  `get_expenses_by_id`, `get_expenses_by_title`
+* Convert the database to a dictionary: `to_dict`
+-----------------------------------
 * test.py - Use Case File:
 The test.py module acts as a use case file, providing scenarios to test the functionalities of the implemented classes. This file is instrumental in verifying the accuracy and reliability of the Expense and ExpenseDatabase classes.
 
